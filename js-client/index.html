@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Vanilla JS Data Visualization Demo</title>
-        <script src="index.js"></script>
-    </head>
-    <body>
-        <svg id="data-vis-container"></svg>
-    </body>
+
+<head>
+    <title>Vanilla JS Data Visualization Demo</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <svg id="data-vis-container" width="600" height="500"></svg>
+    <div class="minwidth">
+        <table class="barchart" cellpadding="1" cellspacing="0">
+            <tr>
+                <td>
+                    <span class="label">50</span>
+                    <div class="bar" style="height:25%"></div>
+                </td>
+                <td>
+                    <span class="label">5000</span>
+                    <div class="bar" style="min-height:75%;max-height:75%"></div>
+                </td>
+                <td>
+                    <span class="label">5</span>
+                    <div class="bar" style="height:5%"></div>
+                </td>
+                <td>
+                    <span class="label">5</span>
+                    <div class="bar" style="height:35%"></div>
+                </td>
+                <td>
+                    <span class="label">50</span>
+                    <div class="bar" style="height:45%"></div>
+                </td>
+                <td>
+                    <span class="label">50</span>
+                    <div class="bar" style="height:20%"></div>
+                </td>
+                <td>
+                    <span class="label">5</span>
+                    <div class="bar" style="height:5%"></div>
+                </td>
+                <td>
+                    <span class="label">5</span>
+                    <div class="bar" style="height:35%"></div>
+                </td>
+                <td>
+                    <span class="label">50</span>
+                    <div class="bar" style="height:45%"></div>
+                </td>
+                <td>
+                    <span class="label">50</span>
+                    <div class="bar" style="height:20%"></div>
+                </td>
+                <td>
+                    <span class="label">5</span>
+                    <div class="bar" style="height:5%"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>00</td>
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+                <td>05</td>
+                <td>06</td>
+                <td>07</td>
+                <td>08</td>
+                <td>09</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
