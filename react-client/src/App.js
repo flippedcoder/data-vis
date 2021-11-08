@@ -1,4 +1,3 @@
-import BarChart from './BarChart';
 import { RadarChart } from './RadarChart';
 
 const rawData = [
@@ -59,8 +58,6 @@ function App() {
 
     return (
         <>
-            <h2>Bar Chart</h2>
-            <BarChart />
             <h1>Radar Chart</h1>
             <div id="radar"></div>
         </>

@@ -45,6 +45,27 @@ var data = [
     }
 ]
 
+var gfgDb = opendatabase('mydb', '1.0', 'this is a client side database', 2 * 1024 * 1024);
+
+if (!gfgDb) {
+    alert('database not created');
+}
+else {
+    var version = gfgDb.version;
+}
+
+async function callApis() {
+    const users = await fetch("https://reqres.in/api/users")
+    const products = await fetch("https://fakestoreapi.com/products")
+    const posts = await fetch('https://jsonplaceholder.typicode.com/posts')
+
+    await Promise.all([users, products, posts]).then(reses => {
+        console.log(reses.map(async res => await console.log(res.json())))
+    })
+}
+
+callApis()
+
 fetch('https://jsonplaceholder.typicode.com/posts')
     .then(async (response) => {
         fetchedData = await response.json()
