@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   Chart as ChartJS,
   LinearScale,

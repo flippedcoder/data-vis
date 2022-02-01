@@ -1,3 +1,4 @@
+import React from 'react';
 import { RadarChart } from './RadarChart';
 import PolarAreaChart from './PolarArea';
 import ScatterPlot from './ScatterPlot';
