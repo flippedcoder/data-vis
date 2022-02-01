@@ -26,7 +26,7 @@ export const data = {
     {
       label: 'This dataset',
       data: [6, 74, 25, -25, -68, 47, -1, 10, -38],
-      backgroundColor: 'rgba(255, 99, 132, 1)',
+      backgroundColor: 'rgba(75, 192, 192, 0.5)',
     },
   ],
 };

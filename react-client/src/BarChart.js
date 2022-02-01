@@ -87,7 +87,7 @@ function BarChart() {
                             y={yMax - barHeight}
                             height={barHeight}
                             width={xScale.bandwidth()}
-                            fill="#fc2e1c"
+                            fill="rgba(153, 102, 255, 0.5)"
                         />
                     </Group>
                 );

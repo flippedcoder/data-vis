@@ -1,3 +1,14 @@
-.polar {
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial;
+  text-align: center;
+}
+
+.polar,
+.scatter,
+.bar {
   width: 40rem;
+  margin: 2rem;
 }

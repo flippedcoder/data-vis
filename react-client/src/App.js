@@ -64,13 +64,17 @@ function App() {
 
     return (
         <>
-            <h1>Radar Chart</h1>
+            {/* <h1>Radar Chart</h1> */}
             <div id="radar"></div>
             <div class='polar'>
                 <PolarAreaChart />
             </div>
-            <ScatterPlot />
-            <BarChart />
+            <div class='scatter'>
+                <ScatterPlot />
+            </div>
+            <div class='bar'>
+                <BarChart />
+            </div>
         </>
     )
 }
