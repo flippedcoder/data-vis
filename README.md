@@ -5,7 +5,6 @@ This is an example project from an [O'Reilly live training course](https://learn
 ## Deployment
 
 * [Vanilla JavaScript Project](https://hayleyskyland.github.io/data-vis/js-client/) 
-
 * [React JavaScript Project](https://data-vis-react.surge.sh/) 
 
 ## See also
