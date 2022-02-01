@@ -1,4 +1,7 @@
 import { RadarChart } from './RadarChart';
+import PolarAreaChart from './PolarArea';
+import ScatterPlot from './ScatterPlot';
+import BarChart from './BarChart';
 
 const rawData = [
     { group: 'Captain America', axis: 'Intelligence', value: 3, description: 'only human' },
@@ -60,6 +63,9 @@ function App() {
         <>
             <h1>Radar Chart</h1>
             <div id="radar"></div>
+            <PolarAreaChart />
+            <ScatterPlot />
+            <BarChart />
         </>
     )
 }
