@@ -6,9 +6,7 @@ export const RadarChart = {
         let over = "ontouchstart" in window ? "touchstart" : "mouseover";
         let out = "ontouchstart" in window ? "touchend" : "mouseout";
 
-        /** Initiate default configuration parameters and vis object
-         *
-         **/
+        // Initiate default configuration parameters and vis object
         // initiate default config
         const w = 300;
         const h = 300;
