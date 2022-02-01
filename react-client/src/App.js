@@ -1,3 +1,5 @@
+import './App.css';
+
 import React from 'react';
 import { RadarChart } from './RadarChart';
 import PolarAreaChart from './PolarArea';
@@ -64,7 +66,9 @@ function App() {
         <>
             <h1>Radar Chart</h1>
             <div id="radar"></div>
-            <PolarAreaChart />
+            <div class='polar'>
+                <PolarAreaChart />
+            </div>
             <ScatterPlot />
             <BarChart />
         </>
