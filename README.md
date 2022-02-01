@@ -6,4 +6,4 @@ This is an example project from an [O'Reilly live training course](https://learn
 
 * [Vanilla JavaScript Project](https://hayleyskyland.github.io/data-vis/js-client/)
 
-* [React JavaScript Project](https://hayleyskyland.github.io/data-vis/js-client/)
+* [React JavaScript Project](https://hayleyskyland.github.io/data-vis/react-client/)
