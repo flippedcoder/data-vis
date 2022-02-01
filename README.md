@@ -7,3 +7,8 @@ This is an example project from an [O'Reilly live training course](https://learn
 * [Vanilla JavaScript Project](https://hayleyskyland.github.io/data-vis/js-client/) 
 
 * [React JavaScript Project](https://data-vis-react.surge.sh/) 
+
+## See also
+
+* [ObservableHQ D3 Gallery](https://observablehq.com/@d3/gallery)
+* [D3.js: Complete Developer Data Visualization Guide](https://learning.oreilly.com/videos/d3-js-complete-developer/9781800565692/)
