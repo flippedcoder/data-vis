@@ -2,6 +2,7 @@ import { RadarChart } from './RadarChart';
 import PolarAreaChart from './PolarArea';
 import ScatterPlot from './ScatterPlot';
 import BarChart from './BarChart';
+import { useEffect } from 'react';
 
 const rawData = [
     { group: 'Captain America', axis: 'Intelligence', value: 3, description: 'only human' },
@@ -56,15 +57,18 @@ const shapeData = (input) => {
 }
 
 function App() {
-    const radarData = shapeData(rawData)
-    RadarChart.draw('#radar', radarData)
+    // const radarData = shapeData(rawData)
+
+    // useEffect(() => {
+    //     RadarChart.draw('#radar', radarData)
+    // }, [radarData])
 
     return (
         <>
-            <h1>Radar Chart</h1>
+            {/* <h1>Radar Chart</h1>
             <div id="radar"></div>
             <PolarAreaChart />
-            <ScatterPlot />
+            <ScatterPlot /> */}
             <BarChart />
         </>
     )
